@@ -59,7 +59,7 @@ button>a {
 
 /* section-2 ( featured-flowers) */
 
-.main-title {
+.title {
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -220,5 +220,25 @@ font-size: 20px;
 font-weight: 700;
 margin-left: 646px;
 margin-top: 10px;
+
+}
+
+/* section-4(instagram section) */
+
+.flowers{
+    padding-left: 200px;
+    padding-top: 48px;
+    display: flex;
+    gap: 24px;
+}
+
+/* my-section */
+.my-flowers{
+    padding-left: 520px;
+    padding-top: 48px;
+    display: flex;
+    gap: 24px;
+width: 400px;
+height: 400px;
 
 }
