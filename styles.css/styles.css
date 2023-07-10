@@ -1,57 +1,224 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* first-section */
+.first-section {
+    position: relative;
+    background: rgba(229, 84, 115, 0.10);
+    padding-left: 240px;
+    width: 1620px;
+    height: 850px;
 }
 
-.first-section{
-position: relative;
-background: rgba(229, 84, 115, 0.10);
-padding-left: 240px;
-width: 1620px;
-height: 850px;
-}
-
-.section-title{
+.section-title {
     color: #272727;
-font-family: Lato;
-font-size: 80px;
-font-weight: 800;
-padding-top: 197px;
+    font-size: 80px;
+    font-weight: 800;
+    padding-top: 197px;
 }
 
-.section-description{
+.section-description {
     color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 32px;
+}
+
+.btn-primary {
+    position: absolute;
+    border-radius: 8px;
+    background: #E55473;
+    width: 160px;
+    height: 64px;
+    bottom: 15%;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+button>a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.flower-photo {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    padding-left: 900px;
+    top: 17.5%;
+}
+
+/* section-2 ( featured-flowers) */
+
+.main-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 178px;
+}
+
+.main-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+}
+
+.flower-image{
+    display: flex;  
+     justify-content: space-around;
+     gap: 24px;
+    width: 500px;
+    height: 500px;
+    margin-left: 550px;   
+
+}
+
+.flower-1{
+    width: 300px;
+height: 338px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+background-size: 464px 538px;
+bottom: 40%;
+margin-left: 240px;
+padding-left: 40px;
+padding-right: 78px;
+padding-top: 110px;
+margin-top: 50px;
+
+}
+
+.flower-2{
+    width: 250px;
+height: 300px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+background-size: 464px 538px;
+bottom: 40%;
+padding-left: 47px;
+padding-right: 47px;
+padding-top: 110px;
+padding-bottom: 51px;
+margin-top: 37px;
+}
+
+.flower-3{
+    width: 314px;
+height: 350px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+background-size: 464px 538px;
+bottom: 40%;
+padding-left: 47px;
+padding-right: 47px;
+padding-top: 110px;
+margin-top: 37px;
+}
+
+.flower-text{
+    display: flex;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.text-1{
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+margin-left: 450px;
+margin-top: -15px;
+}
+
+.text-2{
+
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-left: 200px;
+    margin-top: -15px;
+
+}
+
+.text-3{
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+margin-left: 180px;
+margin-top: -15px;
+}
+
+/* section-3(sale section) */
+
+.section-3{
+
+    margin-top: 128px;
+    width: 1922px;
+height: 350px;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+    padding-top: 230px;
+    background-image: url("../Flower Asset/pngwing\ 8.png");
+    background-repeat: no-repeat;
+    background-position: 80%;
+
+
+}
+
+.title-3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 423px;
+
+}
+
+.Off{
+    color: red;
+}
+
+.description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
-padding-top: 32px;
+right: 80%;
+padding-right: 500px;
+margin-top: 24px;
 }
 
-.btn-primary{
-    position: absolute;
+.btn{
     border-radius: 8px;
 background: #E55473;
 width: 160px;
-height: 64px;       
-bottom: 15%;
-color: white;
+height: 64px;
 color: #FFF;
 font-family: Lato;
 font-size: 20px;
 font-weight: 700;
-}
+margin-left: 646px;
+margin-top: 10px;
 
-.flower-photo{
-    position: absolute;
-    width: 700px;
-height: 700px;
-padding-left: 900px;
-top: 17.5%;
 }
